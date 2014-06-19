@@ -1,0 +1,24 @@
+Outputs:
+
+Random Forest 
+
+3927 samples
+  53 predictors
+   5 classes: 'A', 'B', 'C', 'D', 'E' 
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+
+Summary of sample sizes: 3927, 3927, 3927, 3927, 3927, 3927, ... 
+
+Resampling results across tuning parameters:
+
+  mtry  Accuracy  Kappa  Accuracy SD  Kappa SD
+  2     0.964     0.954  0.00655      0.00828 
+  27    0.973     0.966  0.00491      0.00618 
+  53    0.959     0.948  0.00873      0.011  
+
+  
+    [1] B A B A A E D B A A B C B A E E A B B B
+Levels: A B C D E
+ 
